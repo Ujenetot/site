@@ -1624,3 +1624,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+                        input:-webkit-autofill {
+			box-shadow: 0 0 0px 1000px #262426 inset !important;
+			-webkit-text-fill-color: #ffffff !important;
+		}
+		
